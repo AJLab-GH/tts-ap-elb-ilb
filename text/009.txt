@@ -1,0 +1,2 @@
+
+First, ensure you've selected the correct subscription. Then, create a new, or select an existing resource group. following these steps, you'll want to define your username, password and environment prefix. Finally, select the image sku and Fortigate version you want to deploy, and click next.

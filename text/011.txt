@@ -1,0 +1,2 @@
+
+On the networking page, you can select whether you want to deploy your fortigate into a new or existing environment. For deploying into an existing environment choose your existing virtual network and subnets from the dropdown. otherwise, use the default settings to continue deploying in a new environment.

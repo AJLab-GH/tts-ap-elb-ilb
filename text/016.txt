@@ -1,0 +1,2 @@
+
+In the custom data field, you have the opportunity to add additional configurations that you want loaded onto your fortigate at first boot time.

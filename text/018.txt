@@ -1,0 +1,2 @@
+
+When your deployment has completed! Click on Go to resource group!
