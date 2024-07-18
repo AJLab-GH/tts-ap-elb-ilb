@@ -61,6 +61,13 @@ export SPEECH_KEY='your_subscription_key'
 export SPEECH_REGION='your_region'
 ```
 
+## Using this Speech SDK
+
+To use this SDK, you'll make your changes to the tts.py file. Enter the text you
+wish to convert to speech in the multi-line string corresponding to "TEXT_INPUT".
+You'll also want to increase the filename when you are satisfied with the audio
+and ready to move onto creating the next element in your TTS.
+
 ## Conclusion
 
 By following these instructions, you can set up a clean and conflict-free
