@@ -1,0 +1,2 @@
+
+On the Public IP verification page, a validation will be performed to ensure you successfully set the SKU's to "standard" as detailed in the last menu.

@@ -16,13 +16,13 @@ audio_folder_path.mkdir(parents=True, exist_ok=True)
 text_folder_path.mkdir(parents=True, exist_ok=True)
 
 # File paths
-FILENAME = "008"
+FILENAME = "021"
 speech_file_path = audio_folder_path / f"{FILENAME}.mp3"
 text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-In the drop down menu, you can select from various reference architectures that have been published by fortinet. In today's highlight, we'll be looking at the Active Passive HA with ELB ILB deployment.
+Thank you for tuning in to our Active Passive ELB ILB deployment highlight!
 '''
 
 # Write text to file

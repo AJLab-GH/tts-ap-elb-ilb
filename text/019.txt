@@ -1,0 +1,2 @@
+
+drill down on your public ip address resource for your primary fortigate, and copy the ip address into your browser while connecting over HTTPS

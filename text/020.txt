@@ -1,0 +1,2 @@
+
+Now, login using the username and password you defined during the deployment and begin your FortiGate setup!

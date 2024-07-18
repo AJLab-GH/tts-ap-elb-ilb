@@ -1,0 +1,4 @@
+
+In the advanced menu, you have the option of integrating your existing fortimanager. If you do not wish to configure it, leave the default setting set to no.
+In this menu, you have the opportunity to add additional configurations that you want loaded onto your fortigate at first boot time.
+When you're done configuring the advanced settings, click review and create.

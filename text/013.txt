@@ -1,0 +1,2 @@
+
+Once you've configured your network settings, click next. In the public IP menu, you'll select whether you want to create new public ip's, use existing-ones or to use none at all. These public IPs will be used and associated to your load balancer for internet ingress and egress, in addition to a dedicated management public ip for both members of the FortiGate cluster. You'll want to ensure these public IP's have SKU's set to standard.
