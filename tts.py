@@ -22,7 +22,7 @@ text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-In the drop down menu, you can select from various reference architectures that have been published by fortinet. In today's highlight, we'll be looking at the Active Passive ELB ILB deployment.
+In the drop down menu, you can select from various reference architectures that have been published by fortinet. In today's highlight, we'll be looking at the Active Passive HA with ELB ILB deployment.
 '''
 
 # Write text to file
