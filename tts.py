@@ -16,13 +16,13 @@ audio_folder_path.mkdir(parents=True, exist_ok=True)
 text_folder_path.mkdir(parents=True, exist_ok=True)
 
 # File paths
-FILENAME = "001"
+FILENAME = "014"
 speech_file_path = audio_folder_path / f"{FILENAME}.mp3"
 text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-Hi, and welcome to our FortiGate VM in Azure deployment series. In this series, we'll explore the deployments and reference architectures for FortiGate in Azure, guiding you through each step with clear instructions and practical tips.
+On the Public IP verification page, a validation will be performed to ensure you successfully set the SKU's to standard, as detailed in the last menu.
 '''
 
 # Write text to file
