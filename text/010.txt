@@ -1,2 +1,2 @@
 
-If required, change your instance type or size, Otherwise proceed with the default settings and click next.
+If required, change your instance type-or-size! Otherwise proceed with the default settings and click next.
