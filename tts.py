@@ -16,13 +16,13 @@ audio_folder_path.mkdir(parents=True, exist_ok=True)
 text_folder_path.mkdir(parents=True, exist_ok=True)
 
 # File paths
-FILENAME = "021"
+FILENAME = "001"
 speech_file_path = audio_folder_path / f"{FILENAME}.mp3"
 text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-Thank you for tuning in to our Active Passive ELB ILB deployment highlight!
+Hi, and welcome to our FortiGate VM in Azure deployment series. In this series, we'll explore the deployments and reference architectures for FortiGate in Azure, guiding you through each step with clear instructions and practical tips.
 '''
 
 # Write text to file
@@ -35,7 +35,10 @@ speech_key, service_region = os.environ.get('SPEECH_KEY'), os.environ.get('SPEEC
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
 # Set the voice name, refer to https://aka.ms/speech/voices/neural for full list.
-speech_config.speech_synthesis_voice_name = "en-US-AvaMultilingualNeural"
+speech_config.speech_synthesis_voice_name = "en-US-AvaNeural"
+
+# Set the audio output format for higher quality
+speech_config.set_speech_synthesis_output_format(speechsdk.SpeechSynthesisOutputFormat.Audio48Khz192KBitRateMonoMp3)
 
 # Create an audio configuration that points to an audio file.
 audio_config = speechsdk.audio.AudioOutputConfig(filename=str(speech_file_path))
