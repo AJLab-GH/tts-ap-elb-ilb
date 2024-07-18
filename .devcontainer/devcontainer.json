@@ -1,9 +1,9 @@
 {
   "image": "docker.io/robinmordasiewicz/devcontainer:latest",
   "initializeCommand": "docker pull docker.io/robinmordasiewicz/devcontainer:latest",
-  "name": "azure_speech_service",
+  "name": "tts-ap-elb-ilb",
   "runArgs": [
-    "--name=azure_speech_service",
-    "--hostname=azure_speech_service"
-      ]
+    "--name=tts-ap-elb-ilb",
+    "--hostname=tts-ap-elb-ilb"
+  ]
 }
