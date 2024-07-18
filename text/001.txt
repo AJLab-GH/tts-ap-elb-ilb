@@ -1,1 +1,1 @@
-and that's why you don't mess with the three billy goats gruff!
+Hi, and welcome to our FortiGate VM in Azure deployment series. In this series, we'll explore the deployments and reference architectures for FortiGate in Azure, guiding you through each step with clear instructions and practical tips.

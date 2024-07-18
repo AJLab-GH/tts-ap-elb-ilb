@@ -1,0 +1,2 @@
+
+This deployment architecture is a popular one among our customers. It provides redundancy without adding unnecessary complixity. This architecture should be considered for SDWAN Hubs, or for any customer needing to deliver on uptime SLA's

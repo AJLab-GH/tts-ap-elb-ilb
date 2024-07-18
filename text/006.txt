@@ -1,0 +1,2 @@
+
+Deploying FortiGate via the Azure Marketplace is a quick and efficient way to get started with Fortinet's security solutions in the cloud. This method is ideal for users who prefer a streamlined setup process and utilization of the Gooey.

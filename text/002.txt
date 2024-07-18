@@ -1,0 +1,2 @@
+
+In this episode, we'll be diving into the world of clustered VM deployments, specifically the Active Passive flavor with Load Balancers, exploring their strengths, weaknesses, limitations, and ideal use cases. By understanding these aspects, you'll be better equipped to decide if a this redundant VM firewall architecture is the right choice for your needs.
