@@ -16,13 +16,13 @@ audio_folder_path.mkdir(parents=True, exist_ok=True)
 text_folder_path.mkdir(parents=True, exist_ok=True)
 
 # File paths
-FILENAME = "004"
+FILENAME = "005"
 speech_file_path = audio_folder_path / f"{FILENAME}.mp3"
 text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-The weaknesses of this deployment lie in the fact that the Azure load balancers cannot failover existing connections that have already been established, and they do not offer protocol support outside of TCP and UDP. These limitations are inherent to the Azure Load Balancers themselves irrespective of the backends they target. Lastly, as is with all active-passive designs, the passive node is not passing traffic, it is merely a standby node, meaning the cost of these additional resources provides you only with higher availability, and not higher performance.
+This deployment architecture is a popular one among our customers. It provides redundancy without adding unnecessary complixity. This architecture should be considered for sd-wan Hubs, or for any customer needing to deliver on uptime SLA's
 '''
 
 # Write text to file
