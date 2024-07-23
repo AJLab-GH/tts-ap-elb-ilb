@@ -1,2 +1,2 @@
 
-Please note that a protected subnet must be defined in either deployment scenario. These deployments provision and configure a route table complete with a default route entry pointing to your FortiGate's internal load balancer and automatically associates it to your protected subnet.
+Please note that a protected subnet must be defined in either deployment scenario... These deployments provision and configure a route table preconfigured with a default route entry that points to the FortiGate's internal load balancer, and associates it to your protected subnet.

@@ -16,13 +16,13 @@ audio_folder_path.mkdir(parents=True, exist_ok=True)
 text_folder_path.mkdir(parents=True, exist_ok=True)
 
 # File paths
-FILENAME = "008"
+FILENAME = "012"
 speech_file_path = audio_folder_path / f"{FILENAME}.mp3"
 text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-In the drop down menu, you can select from various reference architectures that have been published by fortinet. In today's highlight, we'll be looking at the Active Passive HA with ELB ILB.
+Please note that a protected subnet must be defined in either deployment scenario... These deployments provision and configure a route table preconfigured with a default route entry that points to the FortiGate's internal load balancer, and associates it to your protected subnet.
 '''
 
 # Write text to file
