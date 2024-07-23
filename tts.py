@@ -16,13 +16,13 @@ audio_folder_path.mkdir(parents=True, exist_ok=True)
 text_folder_path.mkdir(parents=True, exist_ok=True)
 
 # File paths
-FILENAME = "014"
+FILENAME = "004"
 speech_file_path = audio_folder_path / f"{FILENAME}.mp3"
 text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-On the Public IP verification page, a validation will be performed to ensure you successfully set the SKU's to standard, as detailed in the last menu.
+The weaknesses of this deployment lie in the fact that the Azure load balancers cannot failover existing connections that have already been established, and they do not offer protocol support outside of TCP and UDP. These limitations are inherent to the Azure Load Balancers themselves irrespective of the backends they target. Lastly, as is with all active-passive designs, the passive node is not passing traffic, it is merely a standby node, meaning the cost of these additional resources provides you only with higher availability, and not higher performance.
 '''
 
 # Write text to file
