@@ -22,7 +22,7 @@ text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-This deployment architecture is a popular one among our customers. It provides redundancy without adding unnecessary complixity. This architecture should be considered for sd-wan Hubs, or for any customer needing to deliver on uptime SLA's
+This deployment architecture is a popular one among our customers. It provides redundancy without adding unnecessary complexity. This architecture should be considered for sd-WAN, or for any customer needing to deliver on uptime SLA's
 '''
 
 # Write text to file
