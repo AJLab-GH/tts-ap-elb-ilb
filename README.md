@@ -68,6 +68,11 @@ wish to convert to speech in the multi-line string corresponding to "TEXT_INPUT"
 You'll also want to increase the filename when you are satisfied with the audio
 and ready to move onto creating the next element in your TTS.
 
+## For Batch Reprocessing
+
+To re-process the text files found in text, either in another language or using
+a different voice, please run 'voice_convert.py' rather than tts.py
+
 ## Conclusion
 
 By following these instructions, you can set up a clean and conflict-free

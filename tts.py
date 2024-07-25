@@ -16,13 +16,13 @@ audio_folder_path.mkdir(parents=True, exist_ok=True)
 text_folder_path.mkdir(parents=True, exist_ok=True)
 
 # File paths
-FILENAME = "012"
+FILENAME = "002"
 speech_file_path = audio_folder_path / f"{FILENAME}.mp3"
 text_file_path = text_folder_path / f"{FILENAME}.txt"
 
 # Enter the text you want to convert to speech!
 TEXT_INPUT = '''
-Please note that a protected subnet must be defined in either deployment scenario... These deployments provision and configure a route table preconfigured with a default route entry that points to the FortiGate's internal load balancer, and associates it to your protected subnet.
+In this episode, we'll be diving into the world of clustered VM deployments, specifically the Active Passive flavor with Load Balancers, exploring their strengths, weaknesses, limitations, and ideal use cases. By understanding these aspects, you'll be better equipped to decide if this redundant VM firewall architecture is the right choice for your needs.
 '''
 
 # Write text to file
