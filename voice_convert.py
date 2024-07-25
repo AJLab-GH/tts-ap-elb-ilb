@@ -29,7 +29,7 @@ def synthesize_speech(text, filename):
 
     # Create a speech config
     speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
-    speech_config.speech_synthesis_voice_name = 'en-US-RyanMultilingualNeural'
+    speech_config.speech_synthesis_voice_name = 'en-US-AvaNeural'
     speech_config.set_speech_synthesis_output_format(
         speechsdk.SpeechSynthesisOutputFormat.Audio48Khz192KBitRateMonoMp3
     )
